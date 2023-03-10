@@ -52,7 +52,7 @@ a.nav-lick:nth-last-child(1) {
 .Nothing-Ear-img {
   position: relative;
   margin: 0 auto;
-  background-image: url("/resources/Nothing_Ear.png");
+  background-image: url("../resources/Nothing_Ear.png");
   width: 819px;
   background-repeat: no-repeat;
   height: 840px;
@@ -132,14 +132,14 @@ a.nav-lick:nth-last-child(1) {
 .box-men {
   position: relative;
 
-  background-image: url("/resources/left_men.png");
+  background-image: url("../resources/left_men.png");
   width: 702.99px;
   height: 786px;
   margin-top: 150px;
 }
 .right-men {
   position: relative;
-  background-image: url("/resources/right_men.png");
+  background-image: url("../resources/right_men.png");
   width: 702.99px;
   height: 786px;
   margin-left: 689px;
