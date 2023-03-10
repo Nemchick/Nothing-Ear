@@ -43,14 +43,18 @@ a.nav-lick:nth-last-child(1) {
   height: 156px;
   margin-bottom: 90px;
 }
-/* .box-text-header{
-
-} */
+.preview{
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  height: 910px;
+}
 .Nothing-Ear-img {
   position: relative;
   margin: 0 auto;
   background-image: url("/resources/Nothing_Ear.png");
   width: 819px;
+  background-repeat: no-repeat;
   height: 840px;
   margin-bottom: 70px;
 }
@@ -64,7 +68,7 @@ a.nav-lick:nth-last-child(1) {
   text-align: center;
   letter-spacing: -0.03em;
   left: 485px;
-  top: 310px;
+  top: -65px;
   right: 485px;
   width: 430px;
   height: 103px;
@@ -108,9 +112,73 @@ a.nav-lick:nth-last-child(1) {
   height: 110px;
   text-decoration: none;
 }
-.button-headphones p{
+.button-headphones p {
   position: absolute;
 
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 297px;
+  height: 28px;
+  left: 62px;
+  top: 40px;
+}
+.box-men {
+  position: relative;
+
+  background-image: url("/resources/left_men.png");
+  width: 702.99px;
+  height: 786px;
+  margin-top: 150px;
+}
+.right-men {
+  position: relative;
+  background-image: url("/resources/right_men.png");
+  width: 702.99px;
+  height: 786px;
+  margin-left: 689px;
+}
+.title-men {
+  position: absolute;
+  width: 560px;
+  height: 148px;
+  left: -277px;
+  top: 190px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 74px;
+
+  text-align: center;
+  letter-spacing: -0.06em;
+
+  color: #ff25c2;
+}
+.text-men-first {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+  position: absolute;
+  top: 377px;
+  right: 365px;
+  width: 671px;
+  height: 90px;
+}
+.text-men-second{
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -118,11 +186,10 @@ font-size: 25px;
 line-height: 30px;
 text-align: center;
 letter-spacing: -0.03em;
-text-transform: uppercase;
-color: #FFFFFF; 
-width: 297px;
-height: 28px;
-left: 62px;
-top: 40px;
-
+position: absolute;
+color: #FFFFFF;
+width: 671px;
+height: 90px;
+bottom: 190px;
+right: 365px;
 }
