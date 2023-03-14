@@ -8,7 +8,7 @@ body {
 }
 .section-main {
   width: 1400px;
-  height: 4863px;
+  height: 2766px;
   margin: 0 auto;
 }
 .nav {
@@ -134,25 +134,29 @@ a.nav-lick:nth-last-child(4) {
 }
 .box-men {
   position: relative;
+  width: 100%;
+ min-width: 1400px;
+ height: 786px;
+  
+  background-image: url("../resources/mens.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
 
-  background-image: url("../resources/left_men.png");
-  width: 702.99px;
-  height: 786px;
-  margin-top: 150px;
 }
-.right-men {
+.men{
   position: relative;
-  background-image: url("../resources/right_men.png");
-  width: 702.99px;
+  width: 1400px;
   height: 786px;
-  margin-left: 697px;
+  align-items: center;
+  margin: 0 auto;
 }
 .title-men {
   position: absolute;
   width: 560px;
   height: 148px;
-  left: -277px;
   top: 190px;
+  left: 421px;
 
   font-family: "Inter";
   font-style: normal;
@@ -166,6 +170,7 @@ a.nav-lick:nth-last-child(4) {
   color: #ff25c2;
 }
 .text-men-first {
+  position: absolute;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -176,8 +181,8 @@ a.nav-lick:nth-last-child(4) {
 
   color: #ffffff;
   position: absolute;
+  left: 365px;
   top: 377px;
-  right: 365px;
   width: 671px;
   height: 90px;
 }
@@ -193,8 +198,8 @@ a.nav-lick:nth-last-child(4) {
   color: #ffffff;
   width: 671px;
   height: 90px;
-  bottom: 190px;
-  right: 365px;
+  top: 506px;
+  left: 365px;
 }
 .advantage {
   position: relative;
@@ -279,7 +284,7 @@ a.nav-lick:nth-last-child(4) {
   margin: 0 auto;
 }
 .box-women h3 {
-  top: 133px;
+  top: 131px;
   left: 126px;
   right: 125px;
   position: absolute;
@@ -302,7 +307,7 @@ a.nav-lick:nth-last-child(4) {
   text-align: center;
   letter-spacing: -0.06em;
   color: #ffffff;
-  top: 543px;
+  top: 540px;
   left: 229px;
   right: 230px;
 }
@@ -311,7 +316,7 @@ a.nav-lick:nth-last-child(4) {
   width: 866px;
   height: 110px;
   left: 267px;
-  top: 803px;
+  top: 800px;
   border: 1px solid #ffffff;
   border-radius: 100px;
 }
@@ -348,7 +353,7 @@ a.nav-lick:nth-last-child(4) {
   width: 1150px;
   height: 148px;
   left: 109px;
-  top: 153px;
+  top: 150px;
 
   text-align: center;
   letter-spacing: -0.06em;
@@ -362,7 +367,7 @@ a.nav-lick:nth-last-child(4) {
   height: 450px;
   position: absolute;
   left: 125px;
-  bottom: 473px;
+  bottom: 476px;
 }
 .box-footer p {
   font-family: "Inter";
@@ -382,7 +387,7 @@ a.nav-lick:nth-last-child(4) {
 }
 .box-footer-text {
   position: absolute;
-  top: 911px;
+  top: 908px;
   left: 215px;
 
   height: 44px;
@@ -413,13 +418,13 @@ a.nav-lick:nth-last-child(4) {
   width: 603px;
   height: 30px;
   left: 372px;
-  bottom: 142px;
+  bottom: 144px;
 }
 .footer-nav-text {
   width: 127px;
   height: 39px;
   left: 636px;
-  bottom: 52px;
+  bottom: 55px;
   position: absolute;
   font-family: "Inter";
   font-style: normal;
